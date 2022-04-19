@@ -1,0 +1,9 @@
+[submodule "darwin-arm64"]
+	path = darwin-arm64
+	url = git@github.com:go-ffstatic/darwin-arm64.git
+[submodule "darwin-amd64"]
+	path = darwin-amd64
+	url = git@github.com:go-ffstatic/darwin-amd64.git
+[submodule "windows-amd64"]
+	path = windows-amd64
+	url = git@github.com:go-ffstatic/windows-amd64.git
