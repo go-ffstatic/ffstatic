@@ -7,3 +7,21 @@
 [submodule "windows-amd64"]
 	path = windows-amd64
 	url = git@github.com:go-ffstatic/windows-amd64.git
+[submodule "windows-386"]
+	path = windows-386
+	url = git@github.com:go-ffstatic/windows-386.git
+[submodule "linux-amd64"]
+	path = linux-amd64
+	url = git@github.com:go-ffstatic/linux-amd64.git
+[submodule "linux-arm64"]
+	path = linux-arm64
+	url = git@github.com:go-ffstatic/linux-arm64.git
+[submodule "linux-arm"]
+	path = linux-arm
+	url = git@github.com:go-ffstatic/linux-arm.git
+[submodule "linux-386"]
+	path = linux-386
+	url = git@github.com:go-ffstatic/linux-386.git
+[submodule "freebsd-amd64"]
+	path = freebsd-amd64
+	url = git@github.com:go-ffstatic/freebsd-amd64.git
