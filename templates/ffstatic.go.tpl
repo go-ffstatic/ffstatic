@@ -34,7 +34,7 @@ func writeTempExec(pattern string, binary []byte) (string, error) {
 
 var (
 	FfmpegPath  string
-	FfprobeEPath string
+	FfprobePath string
 )
 
 func init() {
