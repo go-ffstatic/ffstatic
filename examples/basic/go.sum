@@ -1,0 +1,4 @@
+github.com/floostack/transcoder v1.1.1 h1:ApvdTZGt4r1N8dcT1PEl4jxX5OBHaOMY42kmCKNbYCE=
+github.com/floostack/transcoder v1.1.1/go.mod h1:lT+f8NEGaHP6AVeYLicas0EI0+TforD+DRuLziJg6bY=
+github.com/go-ffstatic/darwin-amd64 v0.0.0-20220419071301-3be09c46cfa9 h1:7m3vIAZFNmqJg1IpdvYnZKVi67pf6PjCrwZiP/mFSZQ=
+github.com/go-ffstatic/darwin-amd64 v0.0.0-20220419071301-3be09c46cfa9/go.mod h1:8dBlJ3xj3C3oGoLAE2u7c3Dl5Spk9cbiQs9IJWaHb54=
