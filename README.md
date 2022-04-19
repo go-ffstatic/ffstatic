@@ -6,13 +6,13 @@ This project is inspired by [ffmpeg-static](https://github.com/eugeneware/ffmpeg
 
 ## How it works
 
-We use go embed to embed the ffmpeg/ffprobe binaries as bytes in go program. The real ffmpeg/ffprobe executable files would be created in system temp directory when you run the program.
+We use go embed to embed the ffmpeg/ffprobe binaries as bytes in the go program. The real ffmpeg/ffprobe executable files would be created in the temp directory when you run the program.
 
-With this package, you can use ffmpeg/ffprobe without preinstalling. It would be very helpful to run program on serverless platform (ie. lambda/Vercel).
+With this package, you can use ffmpeg/ffprobe without preinstalling. It would be very helpful to run programs on serverless platforms (ie. lambda/Vercel).
 
 ## Installation
 
-Choose the version matched with your environment.
+Select the version that matches your environment:
 
 - Darwin
   - amd64
@@ -74,7 +74,7 @@ Choose the version matched with your environment.
 
 ## Basic Usage
 
-You can use `os/exec` to execute ffmpeg/ffprobe directly. I also recommend to use a ffmpeg wrapper, for example:
+You can use `os/exec` to execute ffmpeg/ffprobe directly. I also recommend using ffmpeg wrappers, for example:
 
 - [xfrr/goffmpeg](https://github.com/xfrr/goffmpeg)
 
@@ -88,7 +88,7 @@ Check [examples/basic](./examples/basic) for more details.
 
 ## Cross-platform
 
-If you want to run your program on multi platforms (dev on darwin, deploy on linux, etc.), you need using `go:build` constrain to cross compile.
+If you want to run your program on multiple platforms (dev on darwin, deploy on linux, etc.), you need to use `go:build` constrain for cross compile.
 
 Check [examples/cross-plaform](./examples/cross-plaform) for more details.
 
